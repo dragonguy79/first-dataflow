@@ -33,6 +33,9 @@ import org.apache.beam.sdk.transforms.*;
 import org.apache.beam.sdk.values.KV;
 import org.apache.beam.sdk.values.PCollection;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -112,10 +115,18 @@ public class FitnessDataProcessor {
             }
 
             FitnessDao dao = new FitnessDao(
-                    words[0], words[1], words[2], words[3], words[4], words[5], words[6],
-                    words[7], words[8], words[9], words[10], words[11], words[12]);
+                    words[0], words[1], words[2], words[3], words[4], toInteger(words[5]), toFloat(words[6]),
+                    words[7], toFloat(words[8]), toInteger(words[9]), toInteger(words[10]), toFloat(words[11]), toInteger(words[12]));
             c.output(dao);
         }
+    }
+
+    private static Integer toInteger(String dateStr)  {
+        return Integer.parseInt(dateStr);
+    }
+
+    private static Float toFloat(String dateStr)  {
+        return Float.parseFloat(dateStr);
     }
 
     /**
@@ -145,7 +156,7 @@ public class FitnessDataProcessor {
          * King Lear. Set this option to choose a different input file or glob.
          */
         @Description("Path of the file to read from")
-        @Default.String("gs://dataflow-gym-bucket/*")
+        @Default.String("gs://dataflow-gym-bucket/fitness-data/*")
         String getInputFile();
         void setInputFile(String value);
 
@@ -166,16 +177,16 @@ public class FitnessDataProcessor {
         tableConfigure.put("memberId", new WriteToBigQuery.FieldInfo<FitnessDao>("STRING", (c, w) -> c.element().getMemberId()));
         tableConfigure.put("firstName", new WriteToBigQuery.FieldInfo<FitnessDao>("STRING", (c, w) -> c.element().getFirstName()));
         tableConfigure.put("lastName", new WriteToBigQuery.FieldInfo<FitnessDao>("STRING", (c, w) -> c.element().getLastName()));
-        tableConfigure.put("birthday", new WriteToBigQuery.FieldInfo<FitnessDao>("STRING", (c, w) -> c.element().getBirthday()));
+        tableConfigure.put("birthday", new WriteToBigQuery.FieldInfo<FitnessDao>("DATE", (c, w) -> c.element().getBirthday()));
         tableConfigure.put("gender", new WriteToBigQuery.FieldInfo<FitnessDao>("STRING", (c, w) -> c.element().getGender()));
-        tableConfigure.put("height", new WriteToBigQuery.FieldInfo<FitnessDao>("STRING", (c, w) -> c.element().getHeight()));
-        tableConfigure.put("weight", new WriteToBigQuery.FieldInfo<FitnessDao>("STRING", (c, w) -> c.element().getWeight()));
-        tableConfigure.put("metricDate", new WriteToBigQuery.FieldInfo<FitnessDao>("STRING", (c, w) -> c.element().getMetricDate()));
-        tableConfigure.put("hourSleep", new WriteToBigQuery.FieldInfo<FitnessDao>("STRING", (c, w) -> c.element().getHourSleep()));
-        tableConfigure.put("caloriesConsumed", new WriteToBigQuery.FieldInfo<FitnessDao>("STRING", (c, w) -> c.element().getCaloriesConsumed()));
-        tableConfigure.put("caloriesBurned", new WriteToBigQuery.FieldInfo<FitnessDao>("STRING", (c, w) -> c.element().getCaloriesBurned()));
-        tableConfigure.put("bmi", new WriteToBigQuery.FieldInfo<FitnessDao>("STRING", (c, w) -> c.element().getBmi()));
-        tableConfigure.put("heartRate", new WriteToBigQuery.FieldInfo<FitnessDao>("STRING", (c, w) -> c.element().getHeartRate()));
+        tableConfigure.put("height", new WriteToBigQuery.FieldInfo<FitnessDao>("INTEGER", (c, w) -> c.element().getHeight()));
+        tableConfigure.put("weight", new WriteToBigQuery.FieldInfo<FitnessDao>("FLOAT", (c, w) -> c.element().getWeight()));
+        tableConfigure.put("metricDate", new WriteToBigQuery.FieldInfo<FitnessDao>("DATE", (c, w) -> c.element().getMetricDate()));
+        tableConfigure.put("hourSleep", new WriteToBigQuery.FieldInfo<FitnessDao>("FLOAT", (c, w) -> c.element().getHourSleep()));
+        tableConfigure.put("caloriesConsumed", new WriteToBigQuery.FieldInfo<FitnessDao>("INTEGER", (c, w) -> c.element().getCaloriesConsumed()));
+        tableConfigure.put("caloriesBurned", new WriteToBigQuery.FieldInfo<FitnessDao>("INTEGER", (c, w) -> c.element().getCaloriesBurned()));
+        tableConfigure.put("bmi", new WriteToBigQuery.FieldInfo<FitnessDao>("FLOAT", (c, w) -> c.element().getBmi()));
+        tableConfigure.put("heartRate", new WriteToBigQuery.FieldInfo<FitnessDao>("INTEGER", (c, w) -> c.element().getHeartRate()));
         return tableConfigure;
     }
 
@@ -204,36 +215,36 @@ public class FitnessDataProcessor {
      */
     @DefaultCoder(AvroCoder.class)
     static class FitnessDao {
-        String memberId;
+        private String memberId;
         @Nullable
-        String firstName;
+        private String firstName;
         @Nullable
-        String lastName;
+        private String lastName;
         @Nullable
-        String birthday;
+        private String birthday;
         @Nullable
-        String gender;
+        private String gender;
         @Nullable
-        String height;
+        private Integer height;
         @Nullable
-        String weight;
+        private Float weight;
         @Nullable
-        String metricDate;
+        private String metricDate;
         @Nullable
-        String hourSleep;
+        private Float hourSleep;
         @Nullable
-        String caloriesConsumed;
+        private Integer caloriesConsumed;
         @Nullable
-        String caloriesBurned;
+        private Integer caloriesBurned;
         @Nullable
-        String bmi;
+        private Float bmi;
         @Nullable
-        String heartRate;
+        private Integer heartRate;
 
         public FitnessDao() {
         }
 
-        public FitnessDao(String memberId, String firstName, String lastName, String birthday, String gender, String height, String weight, String metricDate, String hourSleep, String caloriesConsumed, String caloriesBurned, String bmi, String heartRate) {
+        public FitnessDao(String memberId, String firstName, String lastName, String birthday, String gender, Integer height, Float weight, String metricDate, Float hourSleep, Integer caloriesConsumed, Integer caloriesBurned, Float bmi, Integer heartRate) {
             this.memberId = memberId;
             this.firstName = firstName;
             this.lastName = lastName;
@@ -269,11 +280,11 @@ public class FitnessDataProcessor {
             return gender;
         }
 
-        public String getHeight() {
+        public Integer getHeight() {
             return height;
         }
 
-        public String getWeight() {
+        public Float getWeight() {
             return weight;
         }
 
@@ -281,23 +292,23 @@ public class FitnessDataProcessor {
             return metricDate;
         }
 
-        public String getHourSleep() {
+        public Float getHourSleep() {
             return hourSleep;
         }
 
-        public String getCaloriesConsumed() {
+        public Integer getCaloriesConsumed() {
             return caloriesConsumed;
         }
 
-        public String getCaloriesBurned() {
+        public Integer getCaloriesBurned() {
             return caloriesBurned;
         }
 
-        public String getBmi() {
+        public Float getBmi() {
             return bmi;
         }
 
-        public String getHeartRate() {
+        public Integer getHeartRate() {
             return heartRate;
         }
 

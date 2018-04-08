@@ -32,6 +32,7 @@ com/example/complete/game/StatefulTeamScore$UpdateTeamScoreFn.class
 com/example/complete/game/LeaderBoard$CalculateTeamScores.class
 com/example/complete/game/UserScore.class
 com/example/FitnessDataProcessor$FitnessDataOptions.class
+com/example/gym/CreateFitnessData.class
 com/example/WindowedWordCount$AddTimestampFn.class
 com/example/complete/game/injector/Injector.class
 com/example/complete/game/utils/WriteToText$FieldFn.class
@@ -48,6 +49,7 @@ com/example/complete/game/UserScore$ParseEventFn.class
 com/example/FitnessDataProcessor.class
 com/example/complete/game/utils/WriteToBigQuery.class
 com/example/complete/game/LeaderBoard.class
+com/example/gym/CreateFitnessData$Member.class
 com/example/MinimalWordCount.class
 com/example/complete/game/utils/WriteToBigQuery$FieldInfo.class
 com/example/FitnessDataProcessor$BuildFitnessDataMap.class

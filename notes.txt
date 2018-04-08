@@ -1,0 +1,110 @@
+
+
+
+*********************
+Report
+*********************
+
+- 1 page for general info
+	- per gender
+	- per age range
+
+	metrics: sedentary time, moderately active time, active time, min sleep time, max sleep time, 
+
+
+- 1 page for info per member / by date 
+	- Member_ID
+	- First_Name	
+	- Last_Name	
+	- Gender	
+	- Age	
+	- Height	
+	- Weight	
+	- Hours_Sleep	
+	- Calories_Consumed	
+	- Exercise_Calories_Burned	
+	- BMI
+
+------------------
+csv 
+------------------
+ID1,Tommy,Hanks,1960-09-21,M,186,95,2018-03-01,7.3,26,90
+ID2,Hugh,1980-02-29,55,M,186,95,2018-03-02,7.0,22,80
+ID3,Sally,Yap,1990-11-24,F,168,55,2018-03-03,7.3,20,83
+
+
+------------------
+json 
+------------------
+{
+	"memberId" : "",
+	"firstName" : "",
+	"lastName" : "",
+	"birthday" : ,
+	"gender" : "",
+	"height" : "",
+	"weight" : "",
+	
+	"metrics" : [{
+		"date" : "",
+		"hoursSleep" : "",
+		"bmi" : "",
+		"heartRate" : "",
+	}]
+	
+}
+
+{
+	"memberId" : "ID1",
+	"firstName" : "Tommy",
+	"lastName" : "Hanks",
+	"birthday" : "1965-09-09",
+	"gender" : "M",
+	"height" : "186",
+	"weight" : "90",
+	
+	"metrics" : [{
+		"date" : "2018-01-01",
+		"hoursSleep" : "7.3",
+		"bmi" : "26",
+		"heartRate" : "90"
+	}]
+	
+}
+
+
+
+mvn clean compile exec:java \
+      -Dexec.mainClass=com.example.WordCount \
+      -Dexec.args="--output=target/output/"
+
+mvn clean compile exec:java \
+      -Dexec.mainClass=com.example.FitnessDataProcessor \
+      -Dexec.args="--output=target/output/"
+
+mvn clean compile exec:java \
+      -Dexec.mainClass=com.example.FitnessDataProcessor \
+      -Dexec.args="--output=target/output/ \
+      --dataset=dataflow_gym_dataset \
+      --table=fitness_metric"
+
+mvn clean compile exec:java \
+      -Dexec.mainClass=com.example.FitnessDataProcessor \
+      -Dexec.args="--project=dataflow-gym \
+      --stagingLocation=gs://dataflow-gym-bucket/staging/ \
+      --dataset=dataflow_gym_dataset \
+      --table=fitness_metric \
+      --runner=DataflowRunner"
+
+
+mvn clean compile exec:java \
+      -Dexec.mainClass=com.example.FitnessDataProcessor \
+      -Dexec.args="--project=dataflow-gym \
+      --stagingLocation=gs://dataflow-gym-bucket/staging/ \
+      --dataset=dataflow_gym_dataset \
+      --table=member_fitness_metric \
+      --runner=DataflowRunner"
+
+
+
+

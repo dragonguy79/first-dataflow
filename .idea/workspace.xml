@@ -4,7 +4,20 @@
     <bookmark url="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-sdks-java-core/2.3.0/beam-sdks-java-core-2.3.0-sources.jar!/org/apache/beam/sdk/PipelineResult.java" line="65" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5257a1f-7325-4982-8142-f70fd81f14be" name="Default" comment="" />
+    <list default="true" id="b5257a1f-7325-4982-8142-f70fd81f14be" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/notes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/example/gym/CreateFitnessData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/FitnessDataProcessor$BuildFitnessDaoFn.class" afterPath="$PROJECT_DIR$/target/classes/com/example/FitnessDataProcessor$BuildFitnessDaoFn.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/FitnessDataProcessor$BuildFitnessDataMap.class" afterPath="$PROJECT_DIR$/target/classes/com/example/FitnessDataProcessor$BuildFitnessDataMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/FitnessDataProcessor$FitnessDao.class" afterPath="$PROJECT_DIR$/target/classes/com/example/FitnessDataProcessor$FitnessDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/FitnessDataProcessor$FitnessDataOptions.class" afterPath="$PROJECT_DIR$/target/classes/com/example/FitnessDataProcessor$FitnessDataOptions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/FitnessDataProcessor$PrintTextFn.class" afterPath="$PROJECT_DIR$/target/classes/com/example/FitnessDataProcessor$PrintTextFn.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/FitnessDataProcessor.class" afterPath="$PROJECT_DIR$/target/classes/com/example/FitnessDataProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/FitnessDataProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/FitnessDataProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,60 +28,72 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MinimalWordCount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MinimalWordCount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="103" column="23" lean-forward="false" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WordCount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/WordCount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="162" column="26" lean-forward="false" selection-start-line="162" selection-start-column="26" selection-end-line="162" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FitnessDataProcessor.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="FitnessDataProcessor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/FitnessDataProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="261" column="9" lean-forward="true" selection-start-line="260" selection-start-column="28" selection-end-line="261" selection-end-column="9" />
+            <state relative-caret-position="153">
+              <caret line="154" column="66" lean-forward="false" selection-start-line="154" selection-start-column="66" selection-end-line="154" selection-end-column="66" />
               <folding>
-                <element signature="e#0#12925#0" expanded="true" />
-                <element signature="e#10553#10554#0" expanded="true" />
-                <element signature="e#10592#10593#0" expanded="true" />
-                <element signature="e#10632#10633#0" expanded="true" />
-                <element signature="e#10672#10673#0" expanded="true" />
-                <element signature="e#10711#10712#0" expanded="true" />
-                <element signature="e#10750#10751#0" expanded="true" />
-                <element signature="e#10789#10790#0" expanded="true" />
-                <element signature="e#10828#10829#0" expanded="true" />
-                <element signature="e#10865#10866#0" expanded="true" />
-                <element signature="e#10902#10903#0" expanded="true" />
-                <element signature="e#10939#10940#0" expanded="true" />
-                <element signature="e#10976#10977#0" expanded="true" />
-                <element signature="e#11013#11014#0" expanded="true" />
-                <element signature="e#11050#11051#0" expanded="true" />
-                <element signature="e#11091#11092#0" expanded="true" />
-                <element signature="e#11132#11133#0" expanded="true" />
-                <element signature="e#11172#11173#0" expanded="true" />
-                <element signature="e#11212#11213#0" expanded="true" />
-                <element signature="e#11259#11260#0" expanded="true" />
-                <element signature="e#11306#11307#0" expanded="true" />
-                <element signature="e#11351#11352#0" expanded="true" />
-                <element signature="e#11396#11397#0" expanded="true" />
-                <element signature="e#11430#11431#0" expanded="true" />
-                <element signature="e#11464#11465#0" expanded="true" />
-                <element signature="e#11504#11505#0" expanded="true" />
-                <element signature="e#11544#11545#0" expanded="true" />
+                <element signature="e#0#13410#0" expanded="true" />
+                <element signature="e#4902#4903#0" expanded="true" />
+                <element signature="e#4950#4951#0" expanded="true" />
+                <element signature="e#5003#5004#0" expanded="true" />
+                <element signature="e#5051#5052#0" expanded="true" />
+                <element signature="e#11037#11038#0" expanded="true" />
+                <element signature="e#11076#11077#0" expanded="true" />
+                <element signature="e#11116#11117#0" expanded="true" />
+                <element signature="e#11156#11157#0" expanded="true" />
+                <element signature="e#11195#11196#0" expanded="true" />
+                <element signature="e#11234#11235#0" expanded="true" />
+                <element signature="e#11273#11274#0" expanded="true" />
+                <element signature="e#11312#11313#0" expanded="true" />
+                <element signature="e#11349#11350#0" expanded="true" />
+                <element signature="e#11386#11387#0" expanded="true" />
+                <element signature="e#11424#11425#0" expanded="true" />
+                <element signature="e#11461#11462#0" expanded="true" />
+                <element signature="e#11497#11498#0" expanded="true" />
+                <element signature="e#11534#11535#0" expanded="true" />
+                <element signature="e#11575#11576#0" expanded="true" />
+                <element signature="e#11616#11617#0" expanded="true" />
+                <element signature="e#11655#11656#0" expanded="true" />
+                <element signature="e#11695#11696#0" expanded="true" />
+                <element signature="e#11743#11744#0" expanded="true" />
+                <element signature="e#11790#11791#0" expanded="true" />
+                <element signature="e#11836#11837#0" expanded="true" />
+                <element signature="e#11881#11882#0" expanded="true" />
+                <element signature="e#11914#11915#0" expanded="true" />
+                <element signature="e#11948#11949#0" expanded="true" />
+                <element signature="e#11989#11990#0" expanded="true" />
+                <element signature="e#12029#12030#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateFitnessData.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/gym/CreateFitnessData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="25" column="82" lean-forward="false" selection-start-line="25" selection-start-column="82" selection-end-line="25" selection-end-column="82" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3331#3332#0" expanded="true" />
+                <element signature="e#3364#3365#0" expanded="true" />
+                <element signature="e#3404#3405#0" expanded="true" />
+                <element signature="e#3444#3445#0" expanded="true" />
+                <element signature="e#3483#3484#0" expanded="true" />
+                <element signature="e#3522#3523#0" expanded="true" />
+                <element signature="e#3561#3562#0" expanded="true" />
+                <element signature="e#3600#3601#0" expanded="true" />
+                <element signature="e#3637#3638#0" expanded="true" />
+                <element signature="e#3674#3675#0" expanded="true" />
+                <element signature="e#3708#3709#0" expanded="true" />
+                <element signature="e#3745#3746#0" expanded="true" />
+                <element signature="e#3782#3783#0" expanded="true" />
+                <element signature="e#3819#3820#0" expanded="true" />
+                <element signature="e#3853#3854#0" expanded="true" />
+                <element signature="e#3930#3931#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,32 +102,19 @@
       <file leaf-file-name="WriteToBigQuery.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/complete/game/utils/WriteToBigQuery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="131" column="26" lean-forward="false" selection-start-line="131" selection-start-column="26" selection-end-line="131" selection-end-column="26" />
+            <state relative-caret-position="147">
+              <caret line="131" column="67" lean-forward="false" selection-start-line="131" selection-start-column="67" selection-end-line="131" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExampleUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/common/ExampleUtils.java">
+      <file leaf-file-name="BigQueryIO.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-sdks-java-io-google-cloud-platform/2.3.0/beam-sdks-java-io-google-cloud-platform-2.3.0-sources.jar!/org/apache/beam/sdk/io/gcp/bigquery/BigQueryIO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="74" column="29" lean-forward="false" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
+            <state relative-caret-position="207">
+              <caret line="1125" column="18" lean-forward="false" selection-start-line="1125" selection-start-column="6" selection-end-line="1125" selection-end-column="18" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeaderBoard.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/complete/game/LeaderBoard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="122" column="11" lean-forward="false" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#11248#11264#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -110,14 +122,34 @@
       <file leaf-file-name="UserScore.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/complete/game/UserScore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
+            <state relative-caret-position="960">
               <caret line="112" column="3" lean-forward="false" selection-start-line="74" selection-start-column="1" selection-end-line="112" selection-end-column="3" />
-              <folding />
+              <folding>
+                <element signature="e#0#8479#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3831#3832#0" expanded="false" />
+                <element signature="e#3861#3862#0" expanded="false" />
+                <element signature="e#3891#3892#0" expanded="false" />
+                <element signature="e#3921#3922#0" expanded="false" />
+                <element signature="e#3953#3954#0" expanded="false" />
+                <element signature="e#3984#3985#0" expanded="false" />
+                <element signature="e#4208#4209#0" expanded="false" />
+                <element signature="e#4243#4244#0" expanded="false" />
+                <element signature="e#5921#5922#0" expanded="false" />
+                <element signature="e#5953#5954#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -138,7 +170,11 @@
       <find>google-cloud-bigquery</find>
       <find>bigquery</find>
       <find>fieldInfo</find>
+      <find>new WriteToBigQuery.FieldInfo&lt;</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -152,6 +188,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/MinimalWordCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/complete/game/LeaderBoard.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/FitnessDataProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/complete/game/utils/WriteToBigQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/gym/CreateFitnessData.java" />
       </list>
     </option>
   </component>
@@ -188,6 +226,7 @@
     <option name="width" value="1440" />
     <option name="height" value="774" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -196,13 +235,16 @@
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource ProjectPane="true" />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="false" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -578,6 +620,32 @@
               <option name="myItemId" value="beam-sdks-java-core-2.3.0.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="first-dataflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.apache.beam:beam-sdks-java-core:2.3.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beam-sdks-java-core-2.3.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -761,6 +829,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="time" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="first-dataflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="lang" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -789,11 +883,172 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="first-dataflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="first-dataflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="first-dataflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="first-dataflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="first-dataflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="first-dataflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gym" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="first-dataflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="first-dataflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="first-dataflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="first-dataflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="first-dataflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="first-dataflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -816,7 +1071,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CreateFitnessData">
+    <configuration default="false" name="CreateFitnessData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.example.gym.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.example.gym.CreateFitnessData" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="first-dataflow" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -1100,6 +1375,14 @@
       <envs />
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.CreateFitnessData" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.CreateFitnessData" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="externalProjectsViewState">
@@ -1124,24 +1407,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="774" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17741935" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43695015" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.54545456" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1149,11 +1433,21 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1180,22 +1474,116 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/output-00000-of-00003">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MinimalWordCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1155">
+          <caret line="103" column="23" lean-forward="false" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output-00001-of-00003">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/WordCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1890">
+          <caret line="162" column="26" lean-forward="false" selection-start-line="162" selection-start-column="26" selection-end-line="162" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/complete/game/utils/WriteToBigQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="131" column="26" lean-forward="false" selection-start-line="131" selection-start-column="26" selection-end-line="131" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/common/ExampleUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="74" column="29" lean-forward="false" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#16926#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3628#3629#0" expanded="false" />
+            <element signature="e#3660#3661#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/complete/game/LeaderBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="122" column="11" lean-forward="false" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/complete/game/UserScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="112" column="3" lean-forward="false" selection-start-line="74" selection-start-column="1" selection-end-line="112" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#8479#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3831#3832#0" expanded="false" />
+            <element signature="e#3861#3862#0" expanded="false" />
+            <element signature="e#3891#3892#0" expanded="false" />
+            <element signature="e#3921#3922#0" expanded="false" />
+            <element signature="e#3953#3954#0" expanded="false" />
+            <element signature="e#3984#3985#0" expanded="false" />
+            <element signature="e#4208#4209#0" expanded="false" />
+            <element signature="e#4243#4244#0" expanded="false" />
+            <element signature="e#5921#5922#0" expanded="false" />
+            <element signature="e#5953#5954#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/FitnessDataProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3660">
+          <caret line="261" column="9" lean-forward="true" selection-start-line="260" selection-start-column="28" selection-end-line="261" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#13410#0" expanded="true" />
+            <element signature="e#4902#4903#0" expanded="true" />
+            <element signature="e#4950#4951#0" expanded="true" />
+            <element signature="e#5003#5004#0" expanded="true" />
+            <element signature="e#5051#5052#0" expanded="true" />
+            <element signature="e#11037#11038#0" expanded="true" />
+            <element signature="e#11076#11077#0" expanded="true" />
+            <element signature="e#11116#11117#0" expanded="true" />
+            <element signature="e#11156#11157#0" expanded="true" />
+            <element signature="e#11195#11196#0" expanded="true" />
+            <element signature="e#11234#11235#0" expanded="true" />
+            <element signature="e#11273#11274#0" expanded="true" />
+            <element signature="e#11312#11313#0" expanded="true" />
+            <element signature="e#11349#11350#0" expanded="true" />
+            <element signature="e#11386#11387#0" expanded="true" />
+            <element signature="e#11424#11425#0" expanded="true" />
+            <element signature="e#11461#11462#0" expanded="true" />
+            <element signature="e#11497#11498#0" expanded="true" />
+            <element signature="e#11534#11535#0" expanded="true" />
+            <element signature="e#11575#11576#0" expanded="true" />
+            <element signature="e#11616#11617#0" expanded="true" />
+            <element signature="e#11655#11656#0" expanded="true" />
+            <element signature="e#11695#11696#0" expanded="true" />
+            <element signature="e#11743#11744#0" expanded="true" />
+            <element signature="e#11790#11791#0" expanded="true" />
+            <element signature="e#11836#11837#0" expanded="true" />
+            <element signature="e#11881#11882#0" expanded="true" />
+            <element signature="e#11914#11915#0" expanded="true" />
+            <element signature="e#11948#11949#0" expanded="true" />
+            <element signature="e#11989#11990#0" expanded="true" />
+            <element signature="e#12029#12030#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output-00000-of-00003" />
+    <entry file="file://$PROJECT_DIR$/output-00001-of-00003" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/complete/game/StatefulTeamScore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1208,7 +1596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1232,7 +1619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1240,7 +1626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1272,7 +1657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41">
           <caret line="56" column="54" lean-forward="false" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1280,31 +1664,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="43" column="45" lean-forward="true" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output-00002-of-00003">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/output-00001-of-00005">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/output-00002-of-00003" />
+    <entry file="file://$PROJECT_DIR$/target/output-00001-of-00005" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-sdks-java-core/2.3.0/beam-sdks-java-core-2.3.0-sources.jar!/org/apache/beam/sdk/transforms/ParDo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5535">
           <caret line="421" column="13" lean-forward="false" selection-start-line="421" selection-start-column="13" selection-end-line="421" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1312,7 +1680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1320,10 +1687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="100" column="73" lean-forward="false" selection-start-line="100" selection-start-column="73" selection-end-line="100" selection-end-column="73" />
-          <folding>
-            <element signature="e#4304#4305#0" expanded="false" />
-            <element signature="e#4339#4340#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1331,15 +1694,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/complete/game/UserScore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
+        <state relative-caret-position="960">
           <caret line="112" column="3" lean-forward="false" selection-start-line="74" selection-start-column="1" selection-end-line="112" selection-end-column="3" />
-          <folding />
+          <folding>
+            <element signature="e#0#8479#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3831#3832#0" expanded="false" />
+            <element signature="e#3861#3862#0" expanded="false" />
+            <element signature="e#3891#3892#0" expanded="false" />
+            <element signature="e#3921#3922#0" expanded="false" />
+            <element signature="e#3953#3954#0" expanded="false" />
+            <element signature="e#3984#3985#0" expanded="false" />
+            <element signature="e#4208#4209#0" expanded="false" />
+            <element signature="e#4243#4244#0" expanded="false" />
+            <element signature="e#5921#5922#0" expanded="false" />
+            <element signature="e#5953#5954#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1367,46 +1742,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MinimalWordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="103" column="23" lean-forward="false" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/common/ExampleUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="74" column="29" lean-forward="false" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/complete/game/LeaderBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
+        <state relative-caret-position="1155">
           <caret line="122" column="11" lean-forward="false" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#11248#11264#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/WordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="162" column="26" lean-forward="false" selection-start-line="162" selection-start-column="26" selection-end-line="162" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-sdks-java-io-google-cloud-platform/2.3.0/beam-sdks-java-io-google-cloud-platform-2.3.0.jar!/org/apache/beam/sdk/io/gcp/bigquery/BigQueryIO.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="101" column="14" lean-forward="true" selection-start-line="101" selection-start-column="14" selection-end-line="101" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1414,7 +1756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1422,50 +1763,148 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/common/ExampleUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="74" column="29" lean-forward="false" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#16926#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3628#3629#0" expanded="false" />
+            <element signature="e#3660#3661#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/time/LocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="264" column="28" lean-forward="false" selection-start-line="264" selection-start-column="28" selection-end-line="264" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/complete/game/utils/WriteToBigQuery.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-sdks-java-core/2.3.0/beam-sdks-java-core-2.3.0-sources.jar!/org/apache/beam/sdk/io/TextSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="50" column="6" lean-forward="false" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-sdks-java-core/2.3.0/beam-sdks-java-core-2.3.0-sources.jar!/org/apache/beam/sdk/io/TextIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="178" column="21" lean-forward="false" selection-start-line="178" selection-start-column="21" selection-end-line="178" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-sdks-java-io-google-cloud-platform/2.3.0/beam-sdks-java-io-google-cloud-platform-2.3.0.jar!/org/apache/beam/sdk/io/gcp/bigquery/BigQueryIO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="503" column="13" lean-forward="false" selection-start-line="503" selection-start-column="13" selection-end-line="503" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="162" column="26" lean-forward="false" selection-start-line="162" selection-start-column="26" selection-end-line="162" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/MinimalWordCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="131" column="26" lean-forward="false" selection-start-line="131" selection-start-column="26" selection-end-line="131" selection-end-column="26" />
+          <caret line="110" column="73" lean-forward="false" selection-start-line="110" selection-start-column="73" selection-end-line="110" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/FitnessDataProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="261" column="9" lean-forward="true" selection-start-line="260" selection-start-column="28" selection-end-line="261" selection-end-column="9" />
+        <state relative-caret-position="153">
+          <caret line="154" column="66" lean-forward="false" selection-start-line="154" selection-start-column="66" selection-end-line="154" selection-end-column="66" />
           <folding>
-            <element signature="e#0#12925#0" expanded="true" />
-            <element signature="e#10553#10554#0" expanded="true" />
-            <element signature="e#10592#10593#0" expanded="true" />
-            <element signature="e#10632#10633#0" expanded="true" />
-            <element signature="e#10672#10673#0" expanded="true" />
-            <element signature="e#10711#10712#0" expanded="true" />
-            <element signature="e#10750#10751#0" expanded="true" />
-            <element signature="e#10789#10790#0" expanded="true" />
-            <element signature="e#10828#10829#0" expanded="true" />
-            <element signature="e#10865#10866#0" expanded="true" />
-            <element signature="e#10902#10903#0" expanded="true" />
-            <element signature="e#10939#10940#0" expanded="true" />
-            <element signature="e#10976#10977#0" expanded="true" />
-            <element signature="e#11013#11014#0" expanded="true" />
-            <element signature="e#11050#11051#0" expanded="true" />
-            <element signature="e#11091#11092#0" expanded="true" />
-            <element signature="e#11132#11133#0" expanded="true" />
-            <element signature="e#11172#11173#0" expanded="true" />
-            <element signature="e#11212#11213#0" expanded="true" />
-            <element signature="e#11259#11260#0" expanded="true" />
-            <element signature="e#11306#11307#0" expanded="true" />
-            <element signature="e#11351#11352#0" expanded="true" />
-            <element signature="e#11396#11397#0" expanded="true" />
-            <element signature="e#11430#11431#0" expanded="true" />
-            <element signature="e#11464#11465#0" expanded="true" />
-            <element signature="e#11504#11505#0" expanded="true" />
-            <element signature="e#11544#11545#0" expanded="true" />
+            <element signature="e#0#13410#0" expanded="true" />
+            <element signature="e#4902#4903#0" expanded="true" />
+            <element signature="e#4950#4951#0" expanded="true" />
+            <element signature="e#5003#5004#0" expanded="true" />
+            <element signature="e#5051#5052#0" expanded="true" />
+            <element signature="e#11037#11038#0" expanded="true" />
+            <element signature="e#11076#11077#0" expanded="true" />
+            <element signature="e#11116#11117#0" expanded="true" />
+            <element signature="e#11156#11157#0" expanded="true" />
+            <element signature="e#11195#11196#0" expanded="true" />
+            <element signature="e#11234#11235#0" expanded="true" />
+            <element signature="e#11273#11274#0" expanded="true" />
+            <element signature="e#11312#11313#0" expanded="true" />
+            <element signature="e#11349#11350#0" expanded="true" />
+            <element signature="e#11386#11387#0" expanded="true" />
+            <element signature="e#11424#11425#0" expanded="true" />
+            <element signature="e#11461#11462#0" expanded="true" />
+            <element signature="e#11497#11498#0" expanded="true" />
+            <element signature="e#11534#11535#0" expanded="true" />
+            <element signature="e#11575#11576#0" expanded="true" />
+            <element signature="e#11616#11617#0" expanded="true" />
+            <element signature="e#11655#11656#0" expanded="true" />
+            <element signature="e#11695#11696#0" expanded="true" />
+            <element signature="e#11743#11744#0" expanded="true" />
+            <element signature="e#11790#11791#0" expanded="true" />
+            <element signature="e#11836#11837#0" expanded="true" />
+            <element signature="e#11881#11882#0" expanded="true" />
+            <element signature="e#11914#11915#0" expanded="true" />
+            <element signature="e#11948#11949#0" expanded="true" />
+            <element signature="e#11989#11990#0" expanded="true" />
+            <element signature="e#12029#12030#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/complete/game/utils/WriteToBigQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="131" column="67" lean-forward="false" selection-start-line="131" selection-start-column="67" selection-end-line="131" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/beam/beam-sdks-java-io-google-cloud-platform/2.3.0/beam-sdks-java-io-google-cloud-platform-2.3.0-sources.jar!/org/apache/beam/sdk/io/gcp/bigquery/BigQueryIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="1125" column="18" lean-forward="false" selection-start-line="1125" selection-start-column="6" selection-end-line="1125" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/gym/CreateFitnessData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="25" column="82" lean-forward="false" selection-start-line="25" selection-start-column="82" selection-end-line="25" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3331#3332#0" expanded="true" />
+            <element signature="e#3364#3365#0" expanded="true" />
+            <element signature="e#3404#3405#0" expanded="true" />
+            <element signature="e#3444#3445#0" expanded="true" />
+            <element signature="e#3483#3484#0" expanded="true" />
+            <element signature="e#3522#3523#0" expanded="true" />
+            <element signature="e#3561#3562#0" expanded="true" />
+            <element signature="e#3600#3601#0" expanded="true" />
+            <element signature="e#3637#3638#0" expanded="true" />
+            <element signature="e#3674#3675#0" expanded="true" />
+            <element signature="e#3708#3709#0" expanded="true" />
+            <element signature="e#3745#3746#0" expanded="true" />
+            <element signature="e#3782#3783#0" expanded="true" />
+            <element signature="e#3819#3820#0" expanded="true" />
+            <element signature="e#3853#3854#0" expanded="true" />
+            <element signature="e#3930#3931#0" expanded="true" />
           </folding>
         </state>
       </provider>

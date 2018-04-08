@@ -18,6 +18,7 @@
 /Users/engkhangloh/Google Drive/SteveOwned/Development/Google/first-dataflow/src/main/java/com/example/complete/game/utils/WriteWindowedToBigQuery.java
 /Users/engkhangloh/Google Drive/SteveOwned/Development/Google/first-dataflow/src/main/java/com/example/DebuggingWordCount.java
 /Users/engkhangloh/Google Drive/SteveOwned/Development/Google/first-dataflow/src/main/java/com/example/common/ExampleOptions.java
+/Users/engkhangloh/Google Drive/SteveOwned/Development/Google/first-dataflow/src/main/java/com/example/gym/CreateFitnessData.java
 /Users/engkhangloh/Google Drive/SteveOwned/Development/Google/first-dataflow/src/main/java/com/example/complete/game/utils/GameConstants.java
 /Users/engkhangloh/Google Drive/SteveOwned/Development/Google/first-dataflow/src/main/java/com/example/FitnessDataProcessor.java
 /Users/engkhangloh/Google Drive/SteveOwned/Development/Google/first-dataflow/src/main/java/com/example/common/ExampleBigQueryTableOptions.java
